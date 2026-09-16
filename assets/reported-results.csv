@@ -1,0 +1,3 @@
+condition,encoder_input,checkpoint,training_seeds,visual_reliance,image_response,state_response,command_rmse,left_arm_amplification,right_arm_amplification,left_hand_amplification,right_hand_amplification
+dropout_0,full,198,3,0.39213527954434263,0.05963029327,0.09239852038,0.05653555774179011,2.25,2.19,2.091901273233779,1.68
+dropout_0.5,full,198,3,0.9895796749929251,0.10426083579,0.0010977632337,0.06127029275110837,4.04,2.34,15.973025317762941,1.76
