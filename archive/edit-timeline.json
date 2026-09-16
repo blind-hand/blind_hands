@@ -1,0 +1,384 @@
+[
+  {
+    "id": "01_open",
+    "duration": 6,
+    "layout": "hero",
+    "clips": [
+      {
+        "source": "BH-12.mp4",
+        "source_in": 10,
+        "speed": 1,
+        "source_out": 16,
+        "rect": [
+          0,
+          0,
+          1920,
+          1080
+        ]
+      }
+    ],
+    "edges": [
+      0,
+      4,
+      6
+    ],
+    "timeline_in": 0,
+    "timeline_out": 6
+  },
+  {
+    "id": "02_failure",
+    "duration": 12,
+    "layout": "wide",
+    "clips": [
+      {
+        "source": "BH-10.mp4",
+        "source_in": 51.5,
+        "speed": 1,
+        "source_out": 63.5,
+        "rect": [
+          48,
+          174,
+          1248,
+          702
+        ]
+      }
+    ],
+    "edges": [
+      0,
+      7.5,
+      10,
+      12
+    ],
+    "timeline_in": 6,
+    "timeline_out": 18
+  },
+  {
+    "id": "03_shortcut",
+    "duration": 8,
+    "layout": "dual",
+    "clips": [
+      {
+        "source": "BH-18.mp4",
+        "source_in": 0,
+        "speed": 1,
+        "source_out": 8,
+        "rect": [
+          48,
+          96,
+          540,
+          960
+        ]
+      },
+      {
+        "source": "BH-20.mp4",
+        "source_in": 0,
+        "speed": 1,
+        "source_out": 8,
+        "rect": [
+          620,
+          96,
+          540,
+          960
+        ]
+      }
+    ],
+    "edges": [
+      0,
+      8
+    ],
+    "timeline_in": 18,
+    "timeline_out": 26
+  },
+  {
+    "id": "04_findings",
+    "duration": 10,
+    "layout": "dual",
+    "clips": [
+      {
+        "source": "BH-20.mp4",
+        "source_in": 8,
+        "speed": 1,
+        "source_out": 18,
+        "rect": [
+          48,
+          96,
+          540,
+          960
+        ]
+      },
+      {
+        "source": "BH-19.mp4",
+        "source_in": 6,
+        "speed": 1,
+        "source_out": 16,
+        "rect": [
+          620,
+          96,
+          540,
+          960
+        ]
+      }
+    ],
+    "edges": [
+      0,
+      10
+    ],
+    "timeline_in": 26,
+    "timeline_out": 36
+  },
+  {
+    "id": "05_feedback",
+    "duration": 8,
+    "layout": "wide",
+    "clips": [
+      {
+        "source": "BH-05.mp4",
+        "source_in": 36,
+        "speed": 1,
+        "source_out": 44,
+        "rect": [
+          48,
+          174,
+          1248,
+          702
+        ]
+      }
+    ],
+    "edges": [
+      0,
+      8
+    ],
+    "timeline_in": 36,
+    "timeline_out": 44
+  },
+  {
+    "id": "06_noise",
+    "duration": 10,
+    "layout": "wide",
+    "clips": [
+      {
+        "source": "BH-11.mp4",
+        "source_in": 14,
+        "speed": 1,
+        "source_out": 24,
+        "rect": [
+          48,
+          174,
+          1248,
+          702
+        ]
+      }
+    ],
+    "edges": [
+      0,
+      6.5,
+      10
+    ],
+    "timeline_in": 44,
+    "timeline_out": 54
+  },
+  {
+    "id": "07_boundary",
+    "duration": 6,
+    "layout": "dual",
+    "clips": [
+      {
+        "source": "BH-29.mp4",
+        "source_in": 10,
+        "speed": 1,
+        "source_out": 16,
+        "rect": [
+          48,
+          96,
+          540,
+          960
+        ]
+      },
+      {
+        "source": "BH-18.mp4",
+        "source_in": 14,
+        "speed": 1,
+        "source_out": 20,
+        "rect": [
+          620,
+          96,
+          540,
+          960
+        ]
+      }
+    ],
+    "edges": [
+      0,
+      6
+    ],
+    "timeline_in": 54,
+    "timeline_out": 60
+  },
+  {
+    "id": "08a_retry_start",
+    "duration": 6,
+    "layout": "hero",
+    "clips": [
+      {
+        "source": "BH-07.mp4",
+        "source_in": 0,
+        "speed": 1,
+        "source_out": 6,
+        "rect": [
+          0,
+          0,
+          1920,
+          1080
+        ]
+      }
+    ],
+    "edges": [
+      0,
+      6
+    ],
+    "timeline_in": 60,
+    "timeline_out": 66
+  },
+  {
+    "id": "08b_retry_middle",
+    "duration": 12,
+    "layout": "hero",
+    "clips": [
+      {
+        "source": "BH-07.mp4",
+        "source_in": 6,
+        "speed": 7,
+        "source_out": 90,
+        "rect": [
+          0,
+          0,
+          1920,
+          1080
+        ]
+      }
+    ],
+    "edges": [
+      0,
+      12
+    ],
+    "timeline_in": 66,
+    "timeline_out": 78
+  },
+  {
+    "id": "08c_retry_success",
+    "duration": 12,
+    "layout": "hero",
+    "clips": [
+      {
+        "source": "BH-07.mp4",
+        "source_in": 90,
+        "speed": 1,
+        "source_out": 102,
+        "rect": [
+          0,
+          0,
+          1920,
+          1080
+        ]
+      }
+    ],
+    "edges": [
+      0,
+      10,
+      12
+    ],
+    "timeline_in": 78,
+    "timeline_out": 90
+  },
+  {
+    "id": "09_more_success",
+    "duration": 10,
+    "layout": "hero",
+    "clips": [
+      {
+        "source": "BH-05.mp4",
+        "source_in": 44,
+        "speed": 1,
+        "source_out": 54,
+        "rect": [
+          0,
+          0,
+          1920,
+          1080
+        ]
+      }
+    ],
+    "edges": [
+      0,
+      8,
+      10
+    ],
+    "timeline_in": 90,
+    "timeline_out": 100
+  },
+  {
+    "id": "10_two_executions",
+    "duration": 12,
+    "layout": "dual",
+    "clips": [
+      {
+        "source": "BH-17.mp4",
+        "source_in": 16.5,
+        "speed": 1,
+        "source_out": 28.5,
+        "rect": [
+          48,
+          96,
+          540,
+          960
+        ]
+      },
+      {
+        "source": "BH-19.mp4",
+        "source_in": 8,
+        "speed": 1,
+        "source_out": 20,
+        "rect": [
+          620,
+          96,
+          540,
+          960
+        ]
+      }
+    ],
+    "edges": [
+      0,
+      10,
+      11.5,
+      12
+    ],
+    "timeline_in": 100,
+    "timeline_out": 112
+  },
+  {
+    "id": "11_close",
+    "duration": 8,
+    "layout": "wide",
+    "clips": [
+      {
+        "source": "BH-09.mp4",
+        "source_in": 136,
+        "speed": 1,
+        "source_out": 144,
+        "rect": [
+          48,
+          174,
+          1248,
+          702
+        ]
+      }
+    ],
+    "edges": [
+      0,
+      6.5,
+      8
+    ],
+    "timeline_in": 112,
+    "timeline_out": 120
+  }
+]
