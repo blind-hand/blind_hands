@@ -1,0 +1,29 @@
+BLIND HANDS — REPORTED RESULTS AND METRIC DEFINITIONS
+
+Source: Blind Hands: Visual Reliance and Feedback Error in Dexterous Imitation.
+Anonymous author-review manuscript, revised September 16, 2026.
+
+The CSV contains reported summary values. Right-limb and left-arm amplification entries follow the rounded paper table; other entries retain available aggregate precision.
+Comparison: 50% versus 0% whole encoder-state dropout; full-state evaluation; epoch 198; three training seeds per condition.
+The primary collection contains 199 episodes from six recording stores: 157 training and 42 held out. Two checkpoints reuse the same trained models.
+
+R_vis = D_V / (D_V + D_Q).
+D_V and D_Q measure finite input-swap command responses at fixed composition state and latent draw. R_vis describes their relative share; semantic visual understanding and task completion require separate measurements.
+Command RMSE measures prediction error against demonstrated absolute commands, scaled by per-joint training-data ranges.
+G is peak predicted-state replay error divided by peak teacher-state replay error, per episode and inference repeat. The endpoint averages two inference repeats, takes the episode median, then averages three training-seed endpoints. A ratio of aggregate G values differs from a mean of seed-level ratios.
+
+Relative change = 100 * (dropout / baseline - 1).
+Visual reliance: +152.4%; command RMSE: +8.4%; left-hand G: +663.6%.
+The reliance difference is +0.5974, or +59.7 percentage points.
+Conditional 95% paired episode-bootstrap intervals at epoch 198:
+Visual-reliance difference: [0.5707, 0.6231].
+Command-RMSE ratio: [1.0538, 1.1114].
+Left-hand G ratio: [4.9721, 8.2862].
+Intervals describe episode variation conditional on the trained models, fixed donors, and observed collection. Training-population and new-session uncertainty lie outside this design.
+
+Offline replay retains recorded images and feeds predicted commands back as state to measure command-map error propagation. Its wrapped residual uses mixed recorded units and is a numerical score rather than a physical-angle metric. Environment response, contact, servo dynamics, joint limits, and physical stability require interactive evaluation.
+
+Videos document visible outcomes and attempts. Model identities are unassigned, so clips support behavioral illustration; method-level success rates and trial-specific failure attribution require matched measurements. Side-by-side overview views are independent recordings.
+The retry clip retains the continuous original 0–102 seconds: 0–6 seconds at 1x, 6–90 seconds at 7x, and 90–102 seconds at 1x, including all intermediate attempts.
+
+Consistency-noise and ACT comparisons each use one training seed, an earlier collection, and their own protocols and response metrics. Their findings characterize the evaluated models and trajectories.
